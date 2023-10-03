@@ -1,0 +1,15 @@
+
+number a
+number b
+
+insert(a)
+insert(b)
+
+
+while a -gt 0 and b -gt 0
+	case a -gt b
+		a = a - b
+	case a -lt b
+		b = b - a
+
+display(a)

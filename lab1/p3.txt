@@ -1,0 +1,12 @@
+number n
+number s
+number a
+
+s = 0
+
+insert(n)
+
+while n -greatt 0
+	insert(a)
+	s = s + a
+	n == n - 1
