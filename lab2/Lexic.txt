@@ -1,0 +1,57 @@
+Alphabet:
+
+a. Upper (A-Z) and lower case letters (a-z) of the English alphabet
+
+       b. Underline character '_';
+
+       c. Decimal digits (0-9);
+
+Lexic:
+
+      a.Special symbols, representing:
+
+- operators + - * / -gt -e -ge -le -lw = -ne
+
+- separators: space : 
+
+- reserved words:
+
+    array  string  number while else if int display insert 
+
+
+      b.identifiers
+
+  -a sequence of letters and  digits, such that the first character is a letter; the rule is:
+
+    identifier ::= letter | letter{letter}{digit}
+
+    letter ::= "A" | "B" | . ..| "Z"
+
+    digit ::= "0" | "1" |...| "9"
+
+
+      c.constants
+
+1.number - rule:
+
+      noconst:="+"no|"-"no|no
+
+      no:=digit{no}
+
+
+2.string
+
+      constchar:="string"
+
+      string:=char{string}
+
+      char:=letter|digit
+
+3.array
+
+    array = TYPE identifier '=' '[' array_elem ']'
+	TYPE = number, string
+	array_elem = ELEMENT | ELEMENT ',' [array_elem]
+ 2. Syntax:
+
+Compound statements are indented blocks, with indentation 2

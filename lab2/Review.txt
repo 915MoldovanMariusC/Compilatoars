@@ -1,0 +1,2 @@
+He was missing some tokens in `token.in` and he didn't have one user defined type in his `Lexic.txt`
+`Syntax.in` was correct
