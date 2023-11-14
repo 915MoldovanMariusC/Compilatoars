@@ -1,0 +1,10 @@
+number a
+number b
+
+insert(a)
+insert(b)
+
+case a -great 9
+	display(a)
+case a -lt b
+	display(b)
